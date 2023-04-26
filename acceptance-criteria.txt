@@ -1,0 +1,49 @@
+# Rectangles
+Story: adding rectangles
+
+  AC - clicking left mouse button once and moving around, should display
+        a preview of where the rectangle would be added. Hitting Esc in this 
+        state should cancel the rectangle adding.
+
+  AC - clicking left mouse button twice, at different locations of the
+screen, should add a rectangle with it's diagonal between the two points clicked.
+
+  AC - it should be possible to add as many rectangles as you like!
+
+  AC - a valid rectangle has exactly 4 endpoints, and the endpoints are
+        not the same location.
+
+Story: adding lines
+The user should be able to add lines to the application, by using
+the mouse device.
+  AC - clicking left mouse button once and moving around, should display
+        a preview of where the line would be added. Hitting Esc in this 
+        state should cancel the line adding.
+  AC - clicking left mouse button twice, at different locations of the
+screen, should add a line at the two hit locations.
+  AC - it should be possible to add as many lines as you like!
+  AC - a valid line has exactly two endpoints, and the endpoints are
+        not the same location.
+
+Story: selecting entities
+It should be possible to select 0 or 1 entities.
+  AC - clicking close to an endpoint of an entity selects the entity, and endpoints
+       are emphasized when an entity is selected.
+  AC - if an entity is selected, Esc clears the selection
+
+Story: deleting things
+  AC - when something is selected, pressing Del key should delete that entity
+  AC - pressing Del when nothing is selected has no effect
+
+Story: editing lines
+ It should be possible to fix mistakes in previous lines, by selecting a single
+ line end point and dragging it.
+ AC - By holding the mouse over an endpoint and holding the left mousebutton,
+      you should be able to change the location of the endpoint if the mousebutton
+      is kept pressed
+ AC - Once a line is selected, moving mouse close to and end point 'highlights'
+      that endpoint, so that it is clear that interaction is possible.
+ AC - A highlighted endpoint can be dragged using left mouse button
+
+Story: editing rectangles
+ ACs like lines, but with rectangle visuals instead (and 4 instead of 2 endpoints!)
