@@ -4,7 +4,7 @@
 
 This little 2D drawing application is the result of some frustration with React and (unit) testing applications built in it.
 
-It uses the ideas from the book "Grokking Simplicity" to extract all interesting behaviour / logic / business rules / pick-your-fancy-word into pure functions (calculation) which are called from 'shallow'/'skeletonal' actions in the UI code (the React code).
+It uses the ideas from the book "Grokking Simplicity" to extract all interesting behaviour / logic / business rules / pick-your-fancy-word into pure functions (called calculations in the book) which are called from 'shallow'/'skeletonal' actions in the UI code (the React code).
 
 It's written in typescript.
 
