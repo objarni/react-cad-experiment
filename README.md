@@ -1,2 +1,15 @@
 # micro-frontend-exercise
-An exercise repo for Team Annotell
+
+# setup app
+
+    npm install
+
+# run app
+
+    npm start
+
+
+# run tests
+
+    npm test
+    
