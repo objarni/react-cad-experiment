@@ -1,6 +1,6 @@
 <img width="567" alt="image" src="https://user-images.githubusercontent.com/68198/234618592-d6c2c460-f465-411c-aae3-173fa38302fc.png">
 
-# micro-frontend-exercise
+# React Calculations-Data-Actions Experiment
 
 This little 2D drawing application is the result of some frustration with React and (unit) testing applications built in it.
 
